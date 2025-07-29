@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags: Yeh tags search engines (jaise Google) ko aapki website ke baare mein batate hain. -->
+    <title>Gour Dental Clinic - Best Dentist in Bhopal | Professional Dental Care</title>
+    <meta name="description" content="Gour Dental Clinic in Bhopal offers a wide range of professional dental services including implants, root canal, cosmetic dentistry, and pediatric care. Book your appointment with the best dentists in Bhopal for a brighter smile.">
+    <meta name="keywords" content="dentist in Bhopal, dental clinic Bhopal, best dentist Bhopal, Gour Dental Clinic, dental implants, root canal, teeth whitening, cosmetic dentistry, pediatric dentist Bhopal">
+    <link rel="canonical" href="https://www.gourdentalclinic.com/">
+    <link rel="icon" href="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Tooth-round-icons-others-inmotus-design.png" type="image/png">
+
+    <!-- Open Graph / Facebook Tags: Yeh tags social media par share karne par website ka preview aakarshak banate hain. -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.gourdentalclinic.com/">
+    <meta property="og:title" content="Gour Dental Clinic - Best Dentist in Bhopal | Professional Dental Care">
+    <meta property="og:description" content="Experience top-quality dental care at Gour Dental Clinic, Bhopal. Our expert team provides painless treatments for a healthy and beautiful smile.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1588776814546-daab701a2932?q=80&w=2070&auto=format&fit=crop">
+
+    <!-- Twitter Card Tags: Yeh Twitter par share karne ke liye hain. -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.gourdentalclinic.com/">
+    <meta property="twitter:title" content="Gour Dental Clinic - Best Dentist in Bhopal | Professional Dental Care">
+    <meta property="twitter:description" content="Experience top-quality dental care at Gour Dental Clinic, Bhopal. Our expert team provides painless treatments for a healthy and beautiful smile.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1588776814546-daab701a2932?q=80&w=2070&auto=format&fit=crop">
+
+    <!-- External Libraries: Yeh website ke design aur functionality ke liye zaroori hain. -->
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS: Website ko style karne ke liye. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Fonts: Website ke fonts ke liye. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- Font Awesome: Icons ke liye. -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper.js: Testimonials slider ke liye. -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+
+    <!-- JSON-LD Schema for SEO: Yeh search results mein aapki clinic ki jaankari (address, phone, hours) dikhane mein madad karta hai. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Gour Dental Clinic",
+      "image": "https://images.unsplash.com/photo-1588776814546-daab701a2932?q=80&w=2070&auto=format&fit=crop",
+      "@id": "https://www.gourdentalclinic.com",
+      "url": "https://www.gourdentalclinic.com",
+      "telephone": "+91-8602523483",
+      "priceRange": "$$",
+      "description": "Gour Dental Clinic in Bhopal offers a wide range of professional dental services including implants, root canal, cosmetic dentistry, and pediatric care.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-50, Vidhya Nagar, Near Sahara Hospital, Hoshangabad Road",
+        "addressLocality": "Bhopal",
+        "postalCode": "462026",
+        "addressRegion": "MP",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.2272899,
+        "longitude": 77.433688
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/gourdental",
+        "https://www.instagram.com/gourdental"
+      ] 
+    }
+    </script>
+
+    <!-- Internal CSS: Website ke custom styles yahan hain. -->
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+        }
+        h1,h2,h3,h4,h5,h6 { font-family: 'Poppins', sans-serif; }
+        .hero-section { background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1588776814546-daab701a2932?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover; }
+        
+        /* Slider Styles: Testimonial slider ke dots ka style. */
+        .dark .swiper-pagination-bullet-active { background-color: #0891b2 !important; }
+        .swiper-pagination-bullet-active { background-color: #06b6d4 !important; }
+        
+        /* Form Error Styles: Form mein galat jaankari bharne par error message ka style. */
+        .form-error-message { color: #ef4444; font-size: .875rem; display: none; }
+        .form-input-error { border-color: #ef4444 !important; --tw-ring-color: #ef4444 !important; }
+        
+        /* Popup Styles: Appointment form popup ka animation. */
+        .popup-overlay { transition: opacity .3s ease-in-out; }
+        .popup-content { transition: transform .4s cubic-bezier(.25,1,.5,1), opacity .4s ease-in-out; transform: translateY(-20px) scale(.95); opacity: 0; }
+        .popup-content.is-open { transform: translateY(0) scale(1); opacity: 1; }
+        
+        /* FAQ Styles: FAQ section ke sawaal-jawab ka animation. */
+        .faq-item .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out; }
+        .faq-item.active .faq-answer { max-height: 200px; }
+        .faq-item.active .faq-icon { transform: rotate(45deg); }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-200">
+
+    <!-- =================================================================== -->
+    <!-- APPOINTMENT POPUP FORM SECTION -->
+    <!-- Yeh section appointment book karne wale popup form ke liye hai. -->
+    <!-- =================================================================== -->
+    <div id="appointment-popup" class="fixed inset-0 bg-slate-900 bg-opacity-70 flex items-center justify-center z-50 p-4 popup-overlay opacity-0 hidden">
+        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-2xl w-full max-w-lg relative flex flex-col max-h-[90vh] popup-content border-t-8 border-cyan-500">
+            <div class="p-8 overflow-y-auto">
+                <!-- Close and Language Buttons -->
+                <div class="absolute top-3 right-3 flex items-center gap-2">
+                    <button id="popup-lang-toggle-btn" class="text-sm font-medium px-3 py-2 rounded-full bg-gray-100 dark:bg-slate-700 hover:bg-gray-200 dark:hover:bg-slate-600 transition">EN/HI</button>
+                    <button id="close-popup-btn" aria-label="Close popup" class="text-gray-500 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 bg-gray-100 dark:bg-slate-700 hover:bg-gray-200 dark:hover:bg-slate-600 rounded-full h-8 w-8 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-cyan-400 z-10">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <!-- Form Title -->
+                <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100 text-center flex items-center justify-center mt-8">
+                    <i class="far fa-calendar-check text-cyan-500 text-3xl mr-3"></i>
+                    <span data-translate="popupTitle">Book Your Appointment</span>
+                </h3>
+                <p class="text-center text-gray-600 dark:text-gray-400 mb-6 -mt-1" data-translate="clinicName">Gour Dental Clinic</p>
+                
+                <!-- Form Fields -->
+                <form id="appointment-form" novalidate>
+                    <!-- Name and Phone -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formName">Full Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition" required>
+                            <p id="name-error" class="form-error-message mt-1" data-translate="formNameError">Please enter your correct name.</p>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formPhone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition" required>
+                            <p id="phone-error" class="form-error-message mt-1" data-translate="formPhoneError">Please enter a valid 10-digit mobile number.</p>
+                        </div>
+                    </div>
+                    <!-- Time Slot -->
+                    <div class="mb-4">
+                        <label for="time" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formTime">Preferred Time</label>
+                        <select id="time" name="time" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition" required>
+                            <option value="" disabled selected data-translate="formTimeSelect">Select a time slot</option>
+                        </select>
+                         <p id="time-error" class="form-error-message mt-1" data-translate="formTimeError">Please select a time.</p>
+                    </div>
+                    <!-- Service Selection -->
+                    <div class="mb-4">
+                        <label for="service" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formService">Service</label>
+                        <select id="service" name="service" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition">
+                        </select>
+                    </div>
+                    <!-- Other Service Input (hidden by default) -->
+                    <div id="other-service-container" class="mb-4 hidden">
+                        <label for="other-service" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formOtherService">Please specify the service you need</label>
+                        <input type="text" id="other-service" name="other-service" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition">
+                    </div>
+                    <!-- Message -->
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 dark:text-gray-300 font-medium mb-2" data-translate="formMessage">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="3" maxlength="500" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-slate-700 border border-gray-300 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full bg-cyan-500 text-white text-center px-6 py-3 rounded-full font-bold hover:bg-cyan-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-cyan-300 flex items-center justify-center">
+                        <i class="fab fa-whatsapp mr-2"></i> <span data-translate="formSubmit">Send Request on WhatsApp</span>
+                    </button>
+                    <!-- Form Notes -->
+                    <div class="mt-4 text-center">
+                        <p class="text-sm text-gray-600 dark:text-gray-400" data-translate="formConfirmNote">
+                            After submitting the form, our team will contact you within 5 minutes to confirm your appointment.
+                        </p>
+                        <p class="text-xs text-gray-500 mt-2" data-translate="formTimingNote">
+                            (Please note: Appointments will be confirmed only during clinic hours from 9:00 AM to 9:00 PM)
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- HEADER SECTION -->
+    <!-- Yeh website ka header hai, jisme navigation links aur buttons hain. -->
+    <!-- =================================================================== -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-40 transition-all duration-300 bg-transparent text-white">
+        <nav class="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
+            <!-- Clinic Name/Logo -->
+            <a href="#" class="text-xl font-bold" data-translate="clinicName">Gour Dental Clinic</a>
+            
+            <!-- Desktop Navigation Links -->
+            <div class="hidden lg:flex items-center space-x-6">
+                <a href="#services" class="hover:text-cyan-400 transition font-medium" data-translate="navServices">Services</a>
+                <a href="#doctors" class="hover:text-cyan-400 transition font-medium" data-translate="navDoctors">Our Doctors</a>
+                <a href="#gallery" class="hover:text-cyan-400 transition font-medium" data-translate="navGallery">Gallery</a>
+                <a href="#faq" class="hover:text-cyan-400 transition font-medium" data-translate="navFaq">FAQ</a>
+                <a href="#contact" class="hover:text-cyan-400 transition font-medium" data-translate="navContact">Contact</a>
+            </div>
+            
+            <!-- Header Buttons -->
+            <div class="flex items-center gap-2">
+                 <button id="lang-toggle-btn" class="text-sm font-medium px-3 py-2 rounded-full hover:bg-white/20 transition">EN/HI</button>
+                 <button id="dark-mode-toggle" aria-label="Toggle dark mode" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/20 transition">
+                    <i class="fas fa-moon"></i>
+                 </button>
+                 <button class="open-popup-btn hidden sm:block bg-cyan-500 text-white px-6 py-2.5 rounded-full font-bold hover:bg-cyan-600 transition-all transform hover:scale-105 shadow-md hover:shadow-lg" data-translate="bookAppointment">
+                    Book Appointment
+                </button>
+                <button id="mobile-menu-button" aria-label="Open menu" class="lg:hidden text-2xl ml-2">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-slate-800 text-gray-800 dark:text-gray-200 px-4 pb-4 border-t border-gray-200 dark:border-slate-700 shadow-lg">
+            <a href="#services" class="block py-2 hover:bg-cyan-50 dark:hover:bg-slate-700 rounded-md px-3" data-translate="navServices">Services</a>
+            <a href="#doctors" class="block py-2 hover:bg-cyan-50 dark:hover:bg-slate-700 rounded-md px-3" data-translate="navDoctors">Our Doctors</a>
+            <a href="#gallery" class="block py-2 hover:bg-cyan-50 dark:hover:bg-slate-700 rounded-md px-3" data-translate="navGallery">Gallery</a>
+            <a href="#faq" class="block py-2 hover:bg-cyan-50 dark:hover:bg-slate-700 rounded-md px-3" data-translate="navFaq">FAQ</a>
+            <a href="#contact" class="block py-2 hover:bg-cyan-50 dark:hover:bg-slate-700 rounded-md px-3" data-translate="navContact">Contact</a>
+            <button class="open-popup-btn block mt-2 w-full text-center bg-cyan-500 text-white px-4 py-2 rounded-full font-bold hover:bg-cyan-600 transition" data-translate="bookAppointment">
+                Book Appointment
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- =================================================================== -->
+        <!-- HERO SECTION -->
+        <!-- Yeh website ka sabse upar wala, full-screen section hai. -->
+        <!-- =================================================================== -->
+        <section class="hero-section text-white min-h-screen flex items-center justify-center pt-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-4" data-translate="heroTitle">Expert Dental Care, Brighter Smiles.</h1>
+                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-8" data-translate="heroSubtitle">Welcome to Gour Dental Clinic, where we combine advanced technology with compassionate care for your entire family.</p>
+                <button class="open-popup-btn bg-white text-cyan-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-200 transition-transform transform hover:scale-105 shadow-lg" data-translate="heroBtn">
+                    Schedule Your Visit
+                </button>
+            </div>
+        </section>
+        
+        <!-- =================================================================== -->
+        <!-- WHY CHOOSE US SECTION -->
+        <!-- Is section mein clinic ki khaasiyat batayi gayi hai. -->
+        <!-- =================================================================== -->
+        <section id="about" class="py-24 bg-white dark:bg-slate-900">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="whyUsTitle">Why Choose Gour Dental Clinic?</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto" data-translate="whyUsSubtitle">We are dedicated to providing a comfortable, personalized, and positive dental experience for every patient.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+                    <!-- Feature 1: Experienced Team -->
+                    <div class="p-8 rounded-lg">
+                        <div class="bg-cyan-100 dark:bg-slate-800 text-cyan-500 dark:text-cyan-400 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6 shadow-lg">
+                            <i class="fa-solid fa-user-doctor text-4xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3" data-translate="whyUsFeature1Title">Experienced Team</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="whyUsFeature1Desc">Our skilled dentists and friendly staff are committed to your oral health, using years of experience to provide the best care.</p>
+                    </div>
+                    <!-- Feature 2: Advanced Technology -->
+                    <div class="p-8 rounded-lg">
+                        <div class="bg-cyan-100 dark:bg-slate-800 text-cyan-500 dark:text-cyan-400 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6 shadow-lg">
+                            <i class="fa-solid fa-microscope text-4xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3" data-translate="whyUsFeature2Title">Advanced Technology</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="whyUsFeature2Desc">We use state-of-the-art equipment for accurate diagnoses and effective, minimally invasive treatments.</p>
+                    </div>
+                    <!-- Feature 3: Patient Comfort -->
+                    <div class="p-8 rounded-lg">
+                        <div class="bg-cyan-100 dark:bg-slate-800 text-cyan-500 dark:text-cyan-400 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6 shadow-lg">
+                            <i class="fa-solid fa-heart text-4xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3" data-translate="whyUsFeature3Title">Patient Comfort</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="whyUsFeature3Desc">Your comfort is our priority. We've created a relaxing, anxiety-free environment to make you feel at ease.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- SERVICES SECTION -->
+        <!-- Yahan clinic dwara di jaane wali sabhi services list ki gayi hain. -->
+        <!-- Inhe edit karne ke liye neeche JavaScript ke 'servicesData' object mein badlav karein. -->
+        <!-- =================================================================== -->
+        <section id="services" class="py-24 bg-gray-50 dark:bg-slate-950">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="servicesTitle">Our Dental Speciality Hub</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4" data-translate="servicesSubtitle">A complete range of services to keep your smile healthy and beautiful.</p>
+                </div>
+                <div id="services-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <!-- Services JavaScript se yahan load hongi. -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- DOCTORS SECTION -->
+        <!-- Yahan doctors ki jaankari hai. Image aur text yahan direct edit kar sakte hain. -->
+        <!-- =================================================================== -->
+        <section id="doctors" class="py-24 bg-white dark:bg-slate-900">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="doctorsTitle">Meet Our Expert Team</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto" data-translate="doctorsSubtitle">The dedicated professionals behind your smile.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center">
+                    <!-- Doctor 1 -->
+                    <div class="bg-gray-50 dark:bg-slate-800 rounded-lg shadow-lg p-8 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Dr.+Gour" alt="Dr. Girraj Gour, Chief Dental Surgeon" class="w-40 h-40 rounded-full mx-auto mb-5 border-4 border-white shadow-md object-cover">
+                        <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">Dr. Girraj Gour</h3>
+                        <p class="text-cyan-600 dark:text-cyan-400 font-medium" data-translate="drGirrajPosition">B.D.S, M.H.A (Hospital Administration)</p>
+                    </div>
+                     <!-- Doctor 2 -->
+                    <div class="bg-gray-50 dark:bg-slate-800 rounded-lg shadow-lg p-8 text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Dr.+Gour" alt="Dr. Tanupriya Gour, Orthodontist" class="w-40 h-40 rounded-full mx-auto mb-5 border-4 border-white shadow-md object-cover">
+                        <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">Dr. Tanupriya Gour</h3>
+                        <p class="text-cyan-600 dark:text-cyan-400 font-medium" data-translate="drTanupriyaPosition">B.D.S, M.D.S (Orthodontist)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- PHOTO GALLERY SECTION -->
+        <!-- Yahan clinic ki photos hain. Nayi photo jodne ke liye, ek div ko copy-paste karein aur 'src' mein image ka link badlein. -->
+        <!-- =================================================================== -->
+        <section id="gallery" class="py-24 bg-gray-50 dark:bg-slate-950">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="galleryTitle">Our Clinic Moments</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto" data-translate="gallerySubtitle">A glimpse into our state-of-the-art facility and happy patients.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <!-- Image 1 -->
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" src="https://images.unsplash.com/photo-1578496479532-3225583bce54?q=80&w=600&auto=format&fit=crop" alt="Clinic Waiting Area">
+                    </div>
+                    <!-- Image 2 -->
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" src="https://images.unsplash.com/photo-1529336953128-a8586d696439?q=80&w=600&auto=format&fit=crop" alt="Modern Treatment Room">
+                    </div>
+                    <!-- Image 3 -->
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" src="https://images.unsplash.com/photo-1629904853716-f0bc64219b1b?q=80&w=600&auto=format&fit=crop" alt="Dentist with patient">
+                    </div>
+                    <!-- Image 4 -->
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop" alt="Friendly dental staff">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- FAQ SECTION -->
+        <!-- Yahan aksar pooche jaane wale sawaal hain. -->
+        <!-- Inhe edit karne ke liye neeche JavaScript ke 'faqData' object mein badlav karein. -->
+        <!-- =================================================================== -->
+        <section id="faq" class="py-24 bg-white dark:bg-slate-900">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="faqTitle">Frequently Asked Questions</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto" data-translate="faqSubtitle">Have questions? We have answers. Find more information here.</p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-4" id="faq-container">
+                    <!-- FAQ JavaScript se yahan load honge. -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- TESTIMONIALS SECTION -->
+        <!-- Yahan patients ke reviews hain. Ise yahan direct edit kar sakte hain. -->
+        <!-- =================================================================== -->
+        <section id="testimonials" class="py-24 bg-gray-50 dark:bg-slate-950">
+            <div class="container mx-auto px-4">
+                 <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="testimonialsTitle">What Our Patients Say</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4" data-translate="testimonialsSubtitle">Real stories from our happy patients.</p>
+                </div>
+                <div class="swiper-container testimonial-slider">
+                    <div class="swiper-wrapper pb-16">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide p-2">
+                            <div class="bg-white dark:bg-slate-800 p-8 rounded-lg text-center h-full shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Patient Ankit P." class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-white shadow-md object-cover">
+                                <p class="text-gray-600 dark:text-gray-400 italic mb-4" data-translate="testimonial1">"The best dental experience I've ever had. The staff is incredibly friendly and professional. My root canal was painless!"</p>
+                                <h4 class="font-bold text-gray-800 dark:text-gray-100">Ankit P.</h4>
+                                <div class="text-yellow-400 mt-1">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide p-2">
+                             <div class="bg-white dark:bg-slate-800 p-8 rounded-lg text-center h-full shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Patient Riya S." class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-white shadow-md object-cover">
+                                <p class="text-gray-600 dark:text-gray-400 italic mb-4" data-translate="testimonial2">"I got my teeth whitened here and the results are amazing! The clinic is clean, modern, and very welcoming."</p>
+                                <h4 class="font-bold text-gray-800 dark:text-gray-100">Riya S.</h4>
+                                 <div class="text-yellow-400 mt-1">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide p-2">
+                             <div class="bg-white dark:bg-slate-800 p-8 rounded-lg text-center h-full shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Patient Vikram K." class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-white shadow-md object-cover">
+                                <p class="text-gray-600 dark:text-gray-400 italic mb-4" data-translate="testimonial3">"Dr. Gour is fantastic with kids. My son is no longer afraid of going to the dentist. Highly recommended for families."</p>
+                                <h4 class="font-bold text-gray-800 dark:text-gray-100">Vikram K.</h4>
+                                 <div class="text-yellow-400 mt-1">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================================== -->
+        <!-- CONTACT & LOCATION SECTION -->
+        <!-- Yahan clinic ka address aur map hai. Ise yahan direct edit kar sakte hain. -->
+        <!-- =================================================================== -->
+        <section id="contact" class="py-24 bg-white dark:bg-slate-900">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-cyan-600 dark:text-cyan-400" data-translate="contactTitle">Our Location & Hours</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4" data-translate="contactSubtitle">We're excited to welcome you to our clinic. Find us here!</p>
+                </div>
+                <div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg h-full flex flex-col lg:flex-row overflow-hidden">
+                    <!-- Google Map -->
+                    <div class="w-full lg:w-1/2">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.438590123991!2d77.4336880149715!3d23.22728998484961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c439773365555%3A0x8f4277a83556b6f0!2sSahara%20Hospital!5e0!3m2!1sen!2sin!4v1690382835123!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 400px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <!-- Address and Hours -->
+                    <div class="w-full lg:w-1/2 p-10 flex flex-col justify-center">
+                        <div class="flex items-start mb-8">
+                            <i class="fas fa-map-marker-alt text-cyan-500 text-3xl mt-1 mr-5"></i>
+                            <div>
+                                <h3 class="font-semibold text-xl" data-translate="addressTitle">Our Address</h3>
+                                <p class="text-gray-600 dark:text-gray-400" data-translate="addressLine">B-50, Vidhya Nagar, Near Sahara Hospital, Hoshangabad Road, Bhopal</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock text-cyan-500 text-3xl mr-5"></i>
+                            <div>
+                                <h3 class="font-semibold text-xl" data-translate="hoursTitle">Clinic Hours</h3>
+                                <p class="text-gray-600 dark:text-gray-400" data-translate="hoursLine">Time: 9:00 AM to 9:00 PM (Mon - Sun)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =================================================================== -->
+    <!-- FOOTER SECTION -->
+    <!-- Yeh website ka footer hai. Contact details aur links yahan edit kiye ja sakte hain. -->
+    <!-- =================================================================== -->
+    <footer class="bg-slate-800 text-gray-300">
+        <div class="container mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <!-- About -->
+                <div class="md:col-span-1">
+                     <h3 class="text-xl font-bold text-white mb-4" data-translate="clinicName">Gour Dental Clinic</h3>
+                     <p class="text-gray-400" data-translate="footerAbout">Your trusted partner for comprehensive dental care in Bhopal. We are committed to providing you with a healthy, beautiful smile in a comfortable setting.</p>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4" data-translate="footerLinks">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-cyan-400 transition" data-translate="navAbout">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-cyan-400 transition" data-translate="navServices">Services</a></li>
+                        <li><a href="#doctors" class="text-gray-400 hover:text-cyan-400 transition" data-translate="navDoctors">Our Team</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-cyan-400 transition" data-translate="navContact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div>
+                     <h3 class="text-lg font-semibold text-white mb-4" data-translate="footerContact">Contact Us</h3>
+                     <ul class="space-y-3 text-gray-400">
+                         <li class="flex items-start"><i class="fas fa-map-marker-alt mt-1 mr-3 text-cyan-400"></i><span data-translate="addressLine">B-50, Vidhya Nagar, Hoshangabad Road, Bhopal</span></li>
+                         <li class="flex items-center"><i class="fas fa-phone-alt mr-3 text-cyan-400"></i><a href="tel:+918602523483" class="hover:text-cyan-400 transition">+91 8602523483</a></li>
+                         <li class="flex items-center"><i class="fas fa-envelope mr-3 text-cyan-400"></i><a href="mailto:gourdentalclinic1@gmail.com" class="hover:text-cyan-400 transition">gourdentalclinic1@gmail.com</a></li>
+                     </ul>
+                </div>
+                <!-- Social Media -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4" data-translate="footerSocial">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-cyan-400 transition text-2xl"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-cyan-400 transition text-2xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp" class="text-gray-400 hover:text-cyan-400 transition text-2xl"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-500">
+                <p>&copy; <span id="current-year"></span> <span data-translate="clinicName">Gour Dental Clinic</span>. <span data-translate="footerRights">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top" class="fixed bottom-5 right-5 bg-cyan-500 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 translate-y-4 transition-all duration-300 hover:bg-cyan-600">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- =================================================================== -->
+    <!-- JAVASCRIPT SECTION -->
+    <!-- Yeh website ka "brain" hai. Sabhi interactive features yahan se control hote hain. -->
+    <!-- =================================================================== -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // --- WEBSITE DATA & TRANSLATIONS ---
+        // Yahan website ka saara text content (English aur Hindi mein) store kiya gaya hai.
+        // WEBSITE KA TEXT BADALNE KE LIYE: Neeche diye gaye 'translations' object mein badlav karein.
+        const translations = {
+            en: {
+                clinicName: "Gour Dental Clinic",
+                navServices: "Services",
+                navDoctors: "Our Doctors",
+                navGallery: "Gallery",
+                navFaq: "FAQ",
+                navContact: "Contact",
+                bookAppointment: "Book Appointment",
+                heroTitle: "Expert Dental Care, Brighter Smiles.",
+                heroSubtitle: "Welcome to Gour Dental Clinic, where we combine advanced technology with compassionate care for your entire family.",
+                heroBtn: "Schedule Your Visit",
+                whyUsTitle: "Why Choose Gour Dental Clinic?",
+                whyUsSubtitle: "We are dedicated to providing a comfortable, personalized, and positive dental experience for every patient.",
+                whyUsFeature1Title: "Experienced Team",
+                whyUsFeature1Desc: "Our skilled dentists and friendly staff are committed to your oral health, using years of experience to provide the best care.",
+                whyUsFeature2Title: "Advanced Technology",
+                whyUsFeature2Desc: "We use state-of-the-art equipment for accurate diagnoses and effective, minimally invasive treatments.",
+                whyUsFeature3Title: "Patient Comfort",
+                whyUsFeature3Desc: "Your comfort is our priority. We've created a relaxing, anxiety-free environment to make you feel at ease.",
+                servicesTitle: "Our Dental Speciality Hub",
+                servicesSubtitle: "A complete range of services to keep your smile healthy and beautiful.",
+                doctorsTitle: "Meet Our Expert Team",
+                doctorsSubtitle: "The dedicated professionals behind your smile.",
+                drGirrajPosition: "B.D.S, M.H.A (Hospital Administration)",
+                drTanupriyaPosition: "B.D.S, M.D.S (Orthodontist)",
+                galleryTitle: "Our Clinic Moments",
+                gallerySubtitle: "A glimpse into our state-of-the-art facility and happy patients.",
+                faqTitle: "Frequently Asked Questions",
+                faqSubtitle: "Have questions? We have answers. Find more information here.",
+                testimonialsTitle: "What Our Patients Say",
+                testimonialsSubtitle: "Real stories from our happy patients.",
+                testimonial1: "\"The best dental experience I've ever had. The staff is incredibly friendly and professional. My root canal was painless!\"",
+                testimonial2: "\"I got my teeth whitened here and the results are amazing! The clinic is clean, modern, and very welcoming.\"",
+                testimonial3: "\"Dr. Gour is fantastic with kids. My son is no longer afraid of going to the dentist. Highly recommended for families.\"",
+                contactTitle: "Our Location & Hours",
+                contactSubtitle: "We're excited to welcome you to our clinic. Find us here!",
+                addressTitle: "Our Address",
+                addressLine: "B-50, Vidhya Nagar, Near Sahara Hospital, Hoshangabad Road, Bhopal",
+                hoursTitle: "Clinic Hours",
+                hoursLine: "Time: 9:00 AM to 9:00 PM (Mon - Sun)",
+                footerAbout: "Your trusted partner for comprehensive dental care in Bhopal. We are committed to providing you with a healthy, beautiful smile in a comfortable setting.",
+                footerLinks: "Quick Links",
+                footerContact: "Contact Us",
+                footerSocial: "Follow Us",
+                footerRights: "All Rights Reserved.",
+                navAbout: "About Us",
+                popupTitle: "Book Your Appointment",
+                formName: "Full Name",
+                formNameError: "Please enter your correct name.",
+                formPhone: "Phone Number",
+                formPhoneError: "Please enter a valid 10-digit mobile number.",
+                formTime: "Preferred Time",
+                formTimeSelect: "Select a time slot",
+                formTimeError: "Please select a time.",
+                formService: "Service",
+                formOtherService: "Please specify the service you need",
+                formMessage: "Message (Optional)",
+                formSubmit: "Send Request on WhatsApp",
+                formConfirmNote: "After submitting the form, our team will contact you within 5 minutes to confirm your appointment.",
+                formTimingNote: "(Please note: Appointments will be confirmed only during clinic hours from 9:00 AM to 9:00 PM)",
+            },
+            hi: {
+                clinicName: "गौरडेंटल क्लिनिक",
+                navServices: "सेवाएं",
+                navDoctors: "हमारे डॉक्टर",
+                navGallery: "गैलरी",
+                navFaq: "अक्सर पूछे जाने वाले प्रश्न",
+                navContact: "संपर्क",
+                bookAppointment: "अपॉइंटमेंट बुक करें",
+                heroTitle: "विशेषज्ञ दंत चिकित्सा, उज्जवल मुस्कान।",
+                heroSubtitle: "गौर डेंटल क्लिनिक में आपका स्वागत है, जहाँ हम आपके पूरे परिवार के लिए उन्नत तकनीक को दयालु देखभाल के साथ जोड़ते हैं।",
+                heroBtn: "अपनी विज़िट शेड्यूल करें",
+                whyUsTitle: "गौर डेंटल क्लिनिक क्यों चुनें?",
+                whyUsSubtitle: "हम प्रत्येक रोगी के लिए एक आरामदायक, व्यक्तिगत और सकारात्मक दंत अनुभव प्रदान करने के लिए समर्पित हैं।",
+                whyUsFeature1Title: "अनुभवी टीम",
+                whyUsFeature1Desc: "हमारे कुशल दंत चिकित्सक और मैत्रीपूर्ण कर्मचारी आपके मौखिक स्वास्थ्य के लिए प्रतिबद्ध हैं, जो सर्वोत्तम देखभाल प्रदान करने के लिए वर्षों के अनुभव का उपयोग करते हैं।",
+                whyUsFeature2Title: "उन्नत तकनीक",
+                whyUsFeature2Desc: "हम सटीक निदान और प्रभावी, न्यूनतम इनवेसिव उपचारों के लिए अत्याधुनिक उपकरणों का उपयोग करते हैं।",
+                whyUsFeature3Title: "रोगी का आराम",
+                whyUsFeature3Desc: "आपका आराम हमारी प्राथमिकता है। हमने आपको सहज महसूस कराने के लिए एक आरामदायक, चिंता मुक्त वातावरण बनाया है।",
+                servicesTitle: "हमारा डेंटल स्पेशलिटी हब",
+                servicesSubtitle: "आपकी मुस्कान को स्वस्थ और सुंदर बनाए रखने के लिए सेवाओं की एक पूरी श्रृंखला।",
+                doctorsTitle: "हमारी विशेषज्ञ टीम से मिलें",
+                doctorsSubtitle: "आपकी मुस्कान के पीछे समर्पित पेशेवर।",
+                drGirrajPosition: "बी.डी.एस, एम.एच.ए (अस्पताल प्रशासन)",
+                drTanupriyaPosition: "बी.डी.एस, एम.डी.एस (ऑर्थोडॉन्टिस्ट)",
+                galleryTitle: "हमारे क्लिनिक के कुछ पल",
+                gallerySubtitle: "हमारी अत्याधुनिक सुविधा और खुश मरीज़ों की एक झलक।",
+                faqTitle: "अक्सर पूछे जाने वाले प्रश्न",
+                faqSubtitle: "आपके प्रश्न हैं? हमारे पास जवाब हैं। यहां और जानकारी प्राप्त करें।",
+                testimonialsTitle: "हमारे मरीज़ क्या कहते हैं",
+                testimonialsSubtitle: "हमारे खुश मरीज़ों की सच्ची कहानियाँ।",
+                testimonial1: "\"मेरे जीवन का सबसे अच्छा दंत अनुभव। कर्मचारी अविश्वसनीय रूप से मैत्रीपूर्ण और पेशेवर हैं। मेरा रूट कैनाल दर्द रहित था!\"",
+                testimonial2: "\"मैंने यहाँ अपने दाँत सफेद करवाए और परिणाम अद्भुत हैं! क्लिनिक साफ, आधुनिक और बहुत स्वागत करने वाला है।\"",
+                testimonial3: "\"डॉ. गौर बच्चों के साथ बहुत अच्छे हैं। मेरा बेटा अब दंत चिकित्सक के पास जाने से नहीं डरता। परिवारों के लिए अत्यधिक अनुशंसित।\"",
+                contactTitle: "हमारा स्थान और समय",
+                contactSubtitle: "हम आपको हमारे क्लिनिक में स्वागत करने के लिए उत्साहित हैं। हमें यहाँ खोजें!",
+                addressTitle: "हमारा पता",
+                addressLine: "बी-50, विद्या नगर, सहारा अस्पताल के पास, होशंगाबाद रोड, भोपाल",
+                hoursTitle: "क्लिनिक का समय",
+                hoursLine: "समय: सुबह 9:00 बजे से रात 9:00 बजे तक (सोम - रवि)",
+                footerAbout: "भोपाल में व्यापक दंत चिकित्सा देखभाल के लिए आपका विश्वसनीय साथी। हम आपको एक आरामदायक माहौल में एक स्वस्थ, सुंदर मुस्कान प्रदान करने के लिए प्रतिबद्ध हैं।",
+                footerLinks: "त्वरित लिंक",
+                footerContact: "हमसे संपर्क करें",
+                footerSocial: "हमें फॉलो करें",
+                footerRights: "सर्वाधिकार सुरक्षित।",
+                navAbout: "हमारे बारे में",
+                popupTitle: "अपना अपॉइंटमेंट बुक करें",
+                formName: "पूरा नाम",
+                formNameError: "कृपया अपना सही नाम डालें।",
+                formPhone: "फ़ोन नंबर",
+                formPhoneError: "कृपया 10 अंकों का सही मोबाइल नंबर डालें।",
+                formTime: "पसंदीदा समय",
+                formTimeSelect: "एक समय स्लॉट चुनें",
+                formTimeError: "कृपया एक समय चुनें।",
+                formService: "सेवा",
+                formOtherService: "आपको कौन सी सेवा चाहिए, कृपया लिखें",
+                formMessage: "संदेश (वैकल्पिक)",
+                formSubmit: "व्हाट्सएप पर अनुरोध भेजें",
+                formConfirmNote: "फॉर्म जमा करने के बाद, हमारी टीम 5 मिनट में आपके अपॉइंटमेंट की पुष्टि के लिए आपसे संपर्क करेगी।",
+                formTimingNote: "(कृपया ध्यान दें: अपॉइंटमेंट केवल क्लिनिक के समय सुबह 9:00 बजे से रात 9:00 बजे के बीच ही कन्फर्म किये जायेंगे)",
+            }
+        };
+
+        // SERVICES DATA: Yahan clinic ki services hain.
+        // NAYI SEVA JODNE KE LIYE: Neeche 'en' aur 'hi' dono arrays mein ek naya object copy-paste karein aur details badlein.
+        // 'icon' ke liye Font Awesome (https://fontawesome.com/icons) se icon ka class name istemal karein.
+        const servicesData = {
+            en: [
+                { key: 'implants', icon: 'fa-solid fa-tooth', title: 'Dental Implants', description: 'Permanent solutions for missing teeth that look and feel natural.' },
+                { key: 'rct', icon: 'fa-solid fa-user-doctor', title: 'Advance Root Canal Treatment', description: 'Painless treatment to save your natural teeth and relieve pain.' },
+                { key: 'ortho', icon: 'fa-solid fa-align-center', title: 'Orthodontic Treatment', description: 'Straighten your teeth and improve your bite with modern braces and aligners.' },
+                { key: 'pediatric', icon: 'fa-solid fa-children', title: 'Pediatric Dentistry', description: 'Gentle and friendly dental care for your little ones.' },
+                { key: 'whitening', icon: 'fa-solid fa-face-smile', title: 'Teeth Whitening', description: 'Brighten your smile with our professional whitening treatments.' },
+                { key: 'designing', icon: 'fa-solid fa-award', title: 'Smile Designing', description: 'Enhance your smile with veneers, bonding, and complete smile makeovers.' },
+                { key: 'dentures', icon: 'fa-solid fa-tooth', title: 'Complete Denture', description: 'High-quality, comfortable, and lightweight dentures, both fixed and removable.' },
+                { key: 'crowns', icon: 'fa-solid fa-shield-halved', title: 'Ceramic Crown & Bridge', description: 'Restore the function and appearance of damaged or missing teeth.' },
+                { key: 'gum', icon: 'fa-solid fa-disease', title: 'Gum Treatment', description: 'Solutions for gum bleeding, bad breath, and other gum diseases.' },
+                { key: 'polishing', icon: 'fa-solid fa-gem', title: 'Cleaning & Polishing', description: 'Professional cleaning to remove plaque, tartar, and stains.' },
+                { key: 'jewellery', icon: 'fa-solid fa-star', title: 'Dental Jewellery', description: 'Add a sparkling touch to your smile with safe dental jewellery.' },
+                { key: 'prosthesis', icon: 'fa-solid fa-hand-paper', title: 'Artificial Prosthesis', description: 'Artificial replacement for face and jaw defects (eye, ear, nose, fingers).'},
+            ],
+            hi: [
+                { key: 'implants', icon: 'fa-solid fa-tooth', title: 'डेंटल इम्प्लांट्स', description: 'गायब दांतों के लिए स्थायी समाधान जो प्राकृतिक दिखते और महसूस होते हैं।' },
+                { key: 'rct', icon: 'fa-solid fa-user-doctor', title: 'एडवांस रूट कैनाल ट्रीटमेंट', description: 'आपके प्राकृतिक दांतों को बचाने और दर्द से राहत के लिए दर्द रहित उपचार।' },
+                { key: 'ortho', icon: 'fa-solid fa-align-center', title: 'ऑर्थोडॉन्टिक ट्रीटमेंट', description: 'आधुनिक ब्रेसिज़ और एलाइनर्स के साथ अपने दांतों को सीधा करें और अपनी बाइट में सुधार करें।' },
+                { key: 'pediatric', icon: 'fa-solid fa-children', title: 'बच्चों के दांतों का इलाज', description: 'आपके छोटे बच्चों के लिए कोमल और मैत्रीपूर्ण दंत चिकित्सा देखभाल।' },
+                { key: 'whitening', icon: 'fa-solid fa-face-smile', title: 'टीथ व्हाइटनिंग', description: 'हमारे पेशेवर व्हाइटनिंग उपचारों से अपनी मुस्कान को उज्ज्वल करें।' },
+                { key: 'designing', icon: 'fa-solid fa-award', title: 'स्माइल डिजाइनिंग', description: 'वेनियर्स, बॉन्डिंग और पूर्ण स्माइल मेकओवर के साथ अपनी मुस्कान को बढ़ाएं।' },
+                { key: 'dentures', icon: 'fa-solid fa-tooth', title: 'कम्प्लीट डेंचर', description: 'उच्च गुणवत्ता वाले, आरामदायक और हल्के डेंचर, फिक्स्ड और हटाने योग्य दोनों।' },
+                { key: 'crowns', icon: 'fa-solid fa-shield-halved', title: 'सिरेमिक क्राउन और ब्रिज', description: 'क्षतिग्रस्त या गायब दांतों के कार्य और स्वरूप को पुनर्स्थापित करें।' },
+                { key: 'gum', icon: 'fa-solid fa-disease', title: 'मसूड़ों का इलाज', description: 'मसूड़ों से खून आना, सांसों की दुर्गंध और अन्य मसूड़ों की बीमारियों का समाधान।' },
+                { key: 'polishing', icon: 'fa-solid fa-gem', title: 'सफाई और पॉलिशिंग', description: 'प्लाक, टार्टर और दाग हटाने के लिए पेशेवर सफाई।' },
+                { key: 'jewellery', icon: 'fa-solid fa-star', title: 'डेंटल ज्वैलरी', description: 'सुरक्षित डेंटल ज्वैलरी के साथ अपनी मुस्कान में एक चमकदार स्पर्श जोड़ें।' },
+                { key: 'prosthesis', icon: 'fa-solid fa-hand-paper', title: 'आर्टिफिशियल प्रोस्थेसिस', description: 'चेहरे और जबड़े के दोषों (आंख, कान, नाक, उंगलियां) के लिए कृत्रिम प्रतिस्थापन।'},
+            ]
+        };
+
+        // FAQ DATA: Yahan FAQ ke sawaal-jawab hain.
+        // NAYA FAQ JODNE KE LIYE: Neeche 'en' aur 'hi' dono arrays mein ek naya object {q: "Sawaal", a: "Jawab"} format mein jodein.
+        const faqData = {
+            en: [
+                { q: "How often should I visit the dentist?", a: "For optimal oral health, we recommend a dental check-up and cleaning every six months. Regular visits help in early detection of potential issues." },
+                { q: "Is root canal treatment painful?", a: "With modern techniques and anesthesia, root canal treatment is typically painless. It's designed to relieve the pain caused by an infected tooth, not cause it." },
+                { q: "What are dental implants?", a: "Dental implants are titanium posts that are surgically placed into the jawbone beneath your gums. They act as artificial tooth roots to provide a strong foundation for fixed or removable replacement teeth." },
+                { q: "How can I make my smile brighter?", a: "We offer professional teeth whitening services that are safe and effective. It's a quick way to remove stains and significantly brighten your smile." }
+            ],
+            hi: [
+                { q: "मुझे डेंटिस्ट के पास कितनी बार जाना चाहिए?", a: "इष्टतम मौखिक स्वास्थ्य के लिए, हम हर छह महीने में दंत जांच और सफाई की सलाह देते हैं। नियमित दौरे संभावित समस्याओं का शीघ्र पता लगाने में मदद करते हैं।" },
+                { q: "क्या रूट कैनाल उपचार दर्दनाक है?", a: "आधुनिक तकनीकों और एनेस्थीसिया के साथ, रूट कैनाल उपचार आमतौर पर दर्द रहित होता है। यह संक्रमित दांत के कारण होने वाले दर्द से राहत देने के लिए डिज़ाइन किया गया है, न कि दर्द पैदा करने के लिए।" },
+                { q: "डेंटल इम्प्लांट क्या हैं?", a: "डेंटल इम्प्लांट टाइटेनियम पोस्ट होते हैं जिन्हें शल्य चिकित्सा द्वारा आपके मसूड़ों के नीचे जबड़े की हड्डी में रखा जाता है। वे कृत्रिम दांतों की जड़ों के रूप में कार्य करते हैं ताकि फिक्स्ड या हटाने योग्य प्रतिस्थापन दांतों के लिए एक मजबूत नींव प्रदान की जा सके।" },
+                { q: "मैं अपनी मुस्कान को और उज्ज्वल कैसे बना सकता हूँ?", a: "हम पेशेवर दांत सफेद करने वाली सेवाएं प्रदान करते हैं जो सुरक्षित और प्रभावी हैं। यह दाग हटाने और आपकी मुस्कान को महत्वपूर्ण रूप से उज्ज्वल करने का एक त्वरित तरीका है।" }
+            ]
+        };
+
+        let currentLang = 'en'; // Website hamesha English mein load hogi.
+
+        // --- DYNAMIC CONTENT INJECTION FUNCTIONS ---
+        // Yeh functions upar diye gaye data ko website mein sahi jagah par dikhate hain.
+        const servicesGrid = document.getElementById('services-grid');
+        const serviceSelect = document.getElementById('service');
+        const faqContainer = document.getElementById('faq-container');
+
+        function populateServices(lang) {
+            if(!servicesGrid || !serviceSelect) return;
+            servicesGrid.innerHTML = '';
+            serviceSelect.innerHTML = '';
+            
+            const defaultOption = document.createElement('option');
+            defaultOption.value = "General Check-up";
+            defaultOption.textContent = lang === 'hi' ? 'सामान्य जांच' : 'General Check-up';
+            serviceSelect.appendChild(defaultOption);
+
+            servicesData[lang].forEach((service, index) => {
+                const card = document.createElement('div');
+                card.className = 'bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2';
+                card.innerHTML = `
+                    <div class="bg-cyan-100 dark:bg-slate-700 text-cyan-500 dark:text-cyan-400 rounded-full h-20 w-20 flex items-center justify-center mx-auto mb-6 shadow-md">
+                        <i class="${service.icon} text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">${service.title}</h3>
+                    <p class="text-gray-600 dark:text-gray-400">${service.description}</p>
+                `;
+                servicesGrid.appendChild(card);
+
+                const option = document.createElement('option');
+                option.value = service.title;
+                option.textContent = service.title;
+                serviceSelect.appendChild(option);
+            });
+            
+            const otherOption = document.createElement('option');
+            otherOption.value = "Other";
+            otherOption.textContent = lang === 'hi' ? 'अन्य' : 'Other';
+            serviceSelect.appendChild(otherOption);
+        }
+
+        function populateFaq(lang) {
+            if(!faqContainer) return;
+            faqContainer.innerHTML = '';
+            faqData[lang].forEach((faq) => {
+                const faqItem = document.createElement('div');
+                faqItem.className = 'faq-item bg-white dark:bg-slate-800 rounded-lg shadow-md';
+                faqItem.innerHTML = `
+                    <button class="faq-question w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>${faq.q}</span>
+                        <i class="fas fa-plus faq-icon text-cyan-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer px-5 pb-5 text-gray-600 dark:text-gray-400">
+                        <p>${faq.a}</p>
+                    </div>
+                `;
+                faqContainer.appendChild(faqItem);
+            });
+
+            document.querySelectorAll('.faq-question').forEach(button => {
+                button.addEventListener('click', () => {
+                    const item = button.parentElement;
+                    item.classList.toggle('active');
+                });
+            });
+        }
+        
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('language', lang);
+            document.documentElement.lang = lang;
+
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.getAttribute('data-translate');
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerText = translations[lang][key];
+                }
+            });
+            populateServices(lang);
+            populateFaq(lang);
+        }
+
+        // --- UI INTERACTIVITY ---
+        
+        // Language Toggle Buttons
+        const langToggleBtn = document.getElementById('lang-toggle-btn');
+        const popupLangToggleBtn = document.getElementById('popup-lang-toggle-btn');
+        
+        function toggleLanguage() {
+            const newLang = currentLang === 'en' ? 'hi' : 'en';
+            setLanguage(newLang);
+        }
+
+        langToggleBtn.addEventListener('click', toggleLanguage);
+        popupLangToggleBtn.addEventListener('click', toggleLanguage);
+
+        // Dark Mode Toggle Button
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const htmlEl = document.documentElement;
+        
+        const applyDarkMode = (isDark) => {
+            localStorage.setItem('darkMode', isDark);
+            if(isDark) {
+                htmlEl.classList.add('dark');
+                darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                htmlEl.classList.remove('dark');
+                darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        };
+
+        darkModeToggle.addEventListener('click', () => {
+            applyDarkMode(!htmlEl.classList.contains('dark'));
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'translate-y-4');
+            } else {
+                backToTopBtn.classList.add('opacity-0', 'translate-y-4');
+            }
+        });
+        backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // Initial page load setup
+        setLanguage(localStorage.getItem('language') || 'en'); // User ki saved language ya default English
+        applyDarkMode(localStorage.getItem('darkMode') === 'true');
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('bg-white', 'dark:bg-slate-800', 'shadow-md', 'text-gray-800', 'dark:text-gray-200');
+                header.classList.remove('bg-transparent', 'text-white');
+            } else {
+                header.classList.remove('bg-white', 'dark:bg-slate-800', 'shadow-md', 'text-gray-800', 'dark:text-gray-200');
+                header.classList.add('bg-transparent', 'text-white');
+            }
+        });
+
+        // Mobile Menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        mobileMenu.querySelectorAll('a, button').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Popup open/close logic
+        const popup = document.getElementById('appointment-popup');
+        const openPopupButtons = document.querySelectorAll('.open-popup-btn');
+        const closePopupButton = document.getElementById('close-popup-btn');
+        const popupContent = document.querySelector('.popup-content');
+        
+        const openPopup = () => {
+            popup.classList.remove('hidden');
+            setTimeout(() => {
+                popup.classList.remove('opacity-0');
+                popupContent.classList.add('is-open');
+            }, 10);
+        };
+
+        const closePopup = () => {
+            popup.classList.add('opacity-0');
+            popupContent.classList.remove('is-open');
+            setTimeout(() => popup.classList.add('hidden'), 400);
+        };
+
+        openPopupButtons.forEach(btn => btn.addEventListener('click', openPopup));
+        closePopupButton.addEventListener('click', closePopup);
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) closePopup();
+        });
+
+        // Show popup once per session
+        if (sessionStorage.getItem('popupShown') !== 'true') {
+            setTimeout(openPopup, 2500);
+            sessionStorage.setItem('popupShown', 'true');
+        }
+
+        // Populate time slots in the form
+        const timeSelect = document.getElementById('time');
+        if (timeSelect) {
+            const startTime = 9, endTime = 21;
+            for (let h = startTime; h < endTime; h++) {
+                ['00', '30'].forEach(m => {
+                    const time = `${h.toString().padStart(2, '0')}:${m}`;
+                    const displayHour = h > 12 ? h - 12 : (h === 0 ? 12 : h);
+                    const ampm = h >= 12 ? 'PM' : 'AM';
+                    const displayTime = `${displayHour}:${m} ${ampm}`;
+                    const option = new Option(displayTime, time);
+                    timeSelect.add(option);
+                });
+            }
+        }
+        
+        // Form submission logic
+        const appointmentForm = document.getElementById('appointment-form');
+        const otherServiceContainer = document.getElementById('other-service-container');
+        serviceSelect.addEventListener('change', () => {
+            otherServiceContainer.classList.toggle('hidden', serviceSelect.value !== 'Other');
+        });
+
+        appointmentForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            let isValid = true;
+            document.querySelectorAll('.form-error-message').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.form-input-error').forEach(el => el.classList.remove('form-input-error'));
+            
+            const nameInput = document.getElementById('name');
+            if (nameInput.value.trim().length < 2) {
+                isValid = false;
+                nameInput.classList.add('form-input-error');
+                document.getElementById('name-error').style.display = 'block';
+            }
+
+            const phoneInput = document.getElementById('phone');
+            if (!/^\d{10}$/.test(phoneInput.value.trim())) {
+                isValid = false;
+                phoneInput.classList.add('form-input-error');
+                document.getElementById('phone-error').style.display = 'block';
+            }
+
+            if (timeSelect.value === "") {
+                isValid = false;
+                timeSelect.classList.add('form-input-error');
+                document.getElementById('time-error').style.display = 'block';
+            }
+
+            if (isValid) {
+                const name = nameInput.value.trim();
+                const phone = phoneInput.value.trim();
+                const time = timeSelect.value;
+                let service = serviceSelect.value;
+                if (service === 'Other') {
+                    service = document.getElementById('other-service').value.trim();
+                }
+                const message = document.getElementById('message').value.trim();
+                
+                const whatsAppNumber = '918602523483';
+                let whatsappMessage = `Hello Gour Dental Clinic,\n\n*New Appointment Request*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Preferred Time:* ${time}\n*Service:* ${service}`;
+                if (message) {
+                    whatsappMessage += `\n*Message:* ${message}`;
+                }
+                
+                const whatsappUrl = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+                window.open(whatsappUrl, '_blank');
+                closePopup();
+                appointmentForm.reset();
+            }
+        });
+        
+        // Testimonial slider initialization
+        new Swiper('.testimonial-slider', {
+            loop: true,
+            grabCursor: true,
+            autoplay: { delay: 5000, disableOnInteraction: false },
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: { 640: { slidesPerView: 1, spaceBetween: 20 }, 768: { slidesPerView: 2, spaceBetween: 30 }, 1024: { slidesPerView: 3, spaceBetween: 40 } }
+        });
+        
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    });
+    </script>
+</body>
+</html>
