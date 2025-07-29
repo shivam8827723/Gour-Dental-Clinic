@@ -27,6 +27,12 @@
 
     <!-- External Libraries: Yeh website ke design aur functionality ke liye zaroori hain. -->
     <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS: Website ko style karne ke liye. -->
+    <script>
+        // DARK MODE FIX: Yeh script Tailwind CSS ko batati hai ki dark mode ke liye 'class' strategy ka istemal karna hai.
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Fonts: Website ke fonts ke liye. -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
